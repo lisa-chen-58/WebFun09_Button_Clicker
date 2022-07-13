@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ---------------------BOOTSTRAP --------------------- -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <!-- ---------------------JAVASCRIPT --------------------- -->
+    <script src="script.js"></script>
+    
+    <!-- --------------------- CSS --------------------- -->
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Button Clicker</title>
+</head>
+<body>
+
+    <div id="header">
+        <h1>
+            <strong>Dojonary</strong>
+        </h1>
+        <form>
+            <input value="Search">
+        </form>
+        <button onclick="login(this)" class="btn-blue">Login</button>
+
+    </div>
+
+
+    <!-- -------------PAGE --------------- -->
+
+    <div id="page">
+
+        <!-- -------------COLUMN1 --------------- -->
+        <div id="column1">
+    
+            <!-- -------------SECTION 1 --------------- -->
+
+            <div class="border section" id="section1">
+                
+                <!-- -------------SECTION 1 COLUMN 1 --------------- -->
+                <div class="section-column1">
+                    <div>
+                        <h2>
+                            <strong>ninja</strong>
+                        </h2>
+                        <h3>
+                            <em>noun</em>
+                        </h3>
+                        <h4>Plural:<em>ninjas</em></h4>
+                    </div>
+                    <br>
+                    <button onclick="likeNinja()" class="btn-yellow">13 Likes</button>
+                </div>
+
+
+                <!-- -------------SECTION 1 COLUMN 2 --------------- -->
+                <div class="section-column2">
+                    <h3>
+                        A practitioner skilled in the
+                        <a href="#">Japanese</a>
+                        art of 
+                        <a href="#">ninjutsu</a>
+                    </h3>
+                </div>
+
+            </div>
+
+            <!-- -------------SECTION 2 --------------- -->
+
+            <div class="border section" id="section1">
+                
+                <!-- -------------SECTION 2 COLUMN 1 --------------- -->
+                <div class="section-column1">
+                    <div>
+                        <h2>
+                            <strong>ninja</strong>
+                        </h2>
+                        <h3>
+                            <em>noun</em>
+                        </h3>
+                        <h4>Plural:<em>ninjas</em></h4>
+                    </div>
+                    <br>
+                    <button onclick="likeNinja()" class="btn-yellow">37 Likes</button>
+                </div>
+
+                <!-- -------------SECTION 2 COLUMN 2 --------------- -->
+
+                <div class="section-column2">
+                    <h3>
+                        A
+                        <a href="#">programmer</a>
+                        who breaks down problems with 
+                        <a href="#">zen</a>
+                        -like focus
+                    </h3>
+                </div>
+            </div>
+        </div>
+        
+        <!-- -------------COLUMN2 / SECTION3 --------------- -->
+        <div class="border section" id="column2">
+            <h2>
+                Dojonary is defined by 
+                <strong>YOU</strong>
+            </h2>
+            <span id="btn-section-align">
+                <button onclick="remove(this)" class="btn-green">Add Definition</button>
+            </span>
+        </div>
+
+    </div>
+
+</body>
+</html>
